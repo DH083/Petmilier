@@ -33,11 +33,14 @@
 <hr>
 
 ✔️ <b>반려동물 등록 페이지</b>
- - 
- - 
+ - 이미지 변경 버튼 클릭시 기기 갤러리 연동
+ - 프로필 수정 클릭시 반려동물 정보 등록 페이지 이동
+ - 생일, 만난 날에 선택버튼 클릭시 달력 나타냄
+ - 프로필은 추후 등록하거나 수정 가능
 
-<img src=".png"  width="300" height="100%"/>
+<img src="https://github.com/DH083/Focho/assets/147012079/94b9367f-05d4-469f-9b69-1c215adea074.png"  width="300" height="100%"/> <img src="https://github.com/DH083/Focho/assets/147012079/1e9eed0f-1cd6-4af4-9c0e-f4a2e8f86630.png"  width="300" height="100%"/> <img src="https://github.com/DH083/Focho/assets/147012079/afff26a6-93b1-4e74-99a6-c84c43e08d3f.png"  width="300" height="100%"/>
 <hr>
+
 
 ✔️ <b>로그인 페이지</b>
  - 로그인 버튼 클릭 시 유저 로그인, 메인화면 이동
