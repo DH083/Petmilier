@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="types">
+        <item>선택</item>
+        <item>개</item>
+        <item>고양이</item>
+        <item>토끼</item>
+        <item>기타</item>
+    </string-array>
+</resources>

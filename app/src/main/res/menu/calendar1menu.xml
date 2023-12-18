@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/rep_day"
+        android:title="매일"/>
+
+    <item
+        android:id="@+id/rep_week"
+        android:title="매주"/>
+
+    <item
+        android:id="@+id/rep_month"
+        android:title="매달"/>
+
+    <item
+        android:id="@+id/rep_year"
+        android:title="매년"/>
+
+
+</menu>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Fragment.BoardFragment">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+                app:layout_constraintEnd_toEndOf="parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#A79C92"  />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:background="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ImageView
+                    android:id="@+id/homeTap"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    android:src="@drawable/home" />
+
+                <ImageView
+                    android:id="@+id/boardTap"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    android:src="@drawable/board" />
+
+                <ImageView
+                    android:id="@+id/mapTap"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    android:src="@drawable/hospital" />
+
+                <ImageView
+                    android:id="@+id/calendarTap"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:scaleX="1"
+                    android:scaleY="1"
+                    android:src="@drawable/memo" />
+
+                <ImageView
+                    android:id="@+id/accountTap"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    android:src="@drawable/account" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/dog"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="70dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/dog" />
+
+            <TextView
+                android:id="@+id/dog_cate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="64dp"
+                android:text="강아지방"
+                android:translationY="-63dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dog" />
+
+            <ImageView
+                android:id="@+id/cat"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="70dp"
+                app:layout_constraintEnd_toStartOf="@+id/rabbit"
+                app:layout_constraintStart_toEndOf="@+id/dog"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/cat" />
+
+            <TextView
+                android:id="@+id/cat_cate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-20dp"
+                android:text="고양이방"
+                app:layout_constraintEnd_toStartOf="@+id/rabbit_cate"
+                app:layout_constraintHorizontal_bias="0.544"
+                app:layout_constraintStart_toEndOf="@+id/dog_cate"
+                app:layout_constraintTop_toBottomOf="@+id/cat" />
+
+            <ImageView
+                android:id="@+id/rabbit"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/rabbit" />
+
+            <TextView
+                android:id="@+id/rabbit_cate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="60dp"
+                android:text="토끼방"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rabbit" />
+
+            <ImageView
+                android:id="@+id/birld"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dog_cate"
+                app:srcCompat="@drawable/parrot" />
+
+            <TextView
+                android:id="@+id/birld_cate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:text="새방"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/birld" />
+
+            <ImageView
+                android:id="@+id/reptile"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="70dp"
+                app:layout_constraintEnd_toStartOf="@+id/fish"
+                app:layout_constraintStart_toEndOf="@+id/birld"
+                app:layout_constraintTop_toBottomOf="@+id/cat_cate"
+                app:srcCompat="@drawable/chameleon" />
+
+            <TextView
+                android:id="@+id/reptile_cate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="파충류방"
+                app:layout_constraintEnd_toStartOf="@+id/fish_cate"
+                app:layout_constraintHorizontal_bias="0.517"
+                app:layout_constraintStart_toEndOf="@+id/birld_cate"
+                app:layout_constraintTop_toBottomOf="@+id/reptile" />
+
+            <ImageView
+                android:id="@+id/fish"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rabbit_cate"
+                app:srcCompat="@drawable/fish" />
+
+            <TextView
+                android:id="@+id/fish_cate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="48dp"
+                android:text="물고기방"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fish" />
+
+            <ImageView
+                android:id="@+id/question"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="70dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/birld_cate"
+                app:srcCompat="@drawable/ask" />
+
+            <TextView
+                android:id="@+id/que_cate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="4dp"
+                android:text="질문"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question" />
+
+            <ImageView
+                android:id="@+id/recommend"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginStart="30dp"
+                app:layout_constraintStart_toEndOf="@+id/question"
+                app:layout_constraintTop_toBottomOf="@+id/reptile_cate"
+                app:srcCompat="@drawable/recommendation" />
+
+            <TextView
+                android:id="@+id/rec_cate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="4dp"
+                android:text="추천"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+                app:layout_constraintStart_toEndOf="@+id/que_cate"
+                app:layout_constraintTop_toBottomOf="@+id/recommend"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/free"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="70dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/recommend"
+                app:layout_constraintTop_toBottomOf="@+id/fish_cate"
+                app:srcCompat="@drawable/chat" />
+
+            <TextView
+                android:id="@+id/free_cate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="자유"
+                android:translationX="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/rec_cate"
+                app:layout_constraintTop_toBottomOf="@+id/free" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </FrameLayout>
+</layout>
