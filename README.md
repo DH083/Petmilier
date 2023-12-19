@@ -20,7 +20,7 @@
 <h3>✅ 나의 제작 페이지</h3>
 ☑ 팀원의 제작 페이지
 <hr>
-<b>✅ 안내 페이지</b>
+<h3>✅ 안내 페이지</h3>
 
 - 로딩화면
 - 로그인 버튼 클릭 시 로그인 페이지 이동
@@ -29,7 +29,7 @@
 <img src="https://github.com/DH083/Focho/assets/147012079/1060d6be-20bc-4429-9178-980664f85180.png"  width="300" height="100%"/> <img src="https://github.com/DH083/Focho/assets/147012079/a5b47fb1-752b-4aea-b993-d131e5ea441a.png"  width="300" height="100%"/>
 <hr>
 
-<b>✅ 회원가입 페이지</b>
+<h3>✅ 회원가입 페이지</h3>
 
  - 비밀번호, 이메일 형식 확인
  - 회원가입 버튼을 클릭했을 때 공란이 있거나 유효성검사가 완료되지 않은 칸이 있다면 회원가입 실패
@@ -38,7 +38,7 @@
 <img src="https://github.com/DH083/Focho/assets/147012079/3b17ecfa-115f-48f3-b0d7-131bd869482b.png"  width="300" height="100%"/>
 <hr>
 
-<b>✅ 반려동물 등록 페이지</b>
+<h3>✅ 반려동물 등록 페이지</h3>
 
  - 이미지 변경 버튼 클릭시 기기 갤러리 연동
  - 프로필 수정 클릭시 반려동물 정보 등록 페이지 이동
@@ -48,7 +48,7 @@
 <img src="https://github.com/DH083/Focho/assets/147012079/94b9367f-05d4-469f-9b69-1c215adea074.png"  width="300" height="100%"/> <img src="https://github.com/DH083/Focho/assets/147012079/1e9eed0f-1cd6-4af4-9c0e-f4a2e8f86630.png"  width="300" height="100%"/> <img src="https://github.com/DH083/Focho/assets/147012079/afff26a6-93b1-4e74-99a6-c84c43e08d3f.png"  width="300" height="100%"/>
 <hr>
 
-<b>✅ 로그인 페이지</b>
+<h3>✅ 로그인 페이지</h3>
 
  - 로그인 버튼 클릭 시 유저 로그인, 메인화면 이동
  - 로그인 버튼을 클릭했을 때 공란이 있으면 로그인 실패
@@ -57,7 +57,7 @@
 <img src="https://github.com/DH083/Focho/assets/147012079/b57f7d79-9dee-47eb-9dca-b6bd06964097.png"  width="300" height="100%"/>
 <hr>
 
-<b>✅ 메인 페이지</b>
+<h3>✅ 메인 페이지</h3>
 
 - 사용자가 등록한 반려동물의 사진과 이름 불러오기
 - 우측 상단에 반려동물과의 디데이 계산
@@ -66,14 +66,14 @@
 <img src="https://github.com/DH083/Focho/assets/147012079/d81cd65c-b918-47d7-b2d9-f96ccc4151d7.png"  width="300" height="100%"/>
 <hr>
 
-<b>☑ 게시판 페이지</b>
+<h3>☑ 게시판 페이지</h3>
  - 게시판 목록 불러오기
  - 게시판 선택시 해당 게시판으로 이동, 해당 게시판에 작성된 글 목록 가져오기
 
 <img src="https://github.com/DH083/Focho/assets/147012079/dd99406b-b8ae-4f84-b643-930ed750cd5c.png"  width="300" height="100%"/>
 <hr>
 
-<b>☑ 지도 페이지</b>
+<h3>☑ 지도 페이지</h3>
  - 주변 병원 찾기 버튼 클릭시 지도로 이동 (구글 지도 연동)
  - 근처 동물병원 주황핀으로 나타내기
  - 주황핀 선택시 동물병원 정보 나타내기
@@ -81,12 +81,12 @@
 <img src="https://github.com/DH083/Focho/assets/147012079/78c2ab3c-7b76-4e8d-a036-cdb82c223f26.png"  width="300" height="100%"/> <img src="https://github.com/DH083/Focho/assets/147012079/b247fb79-7d33-4fe4-ad9e-f9f92e3898b6.png"  width="300" height="100%"/>
 <hr>
 
-<b>☑ 메모 페이지</b>
+<h3>☑ 메모 페이지</h3>
 
 <img src=".png"  width="300" height="100%"/>
 <hr>
 
-<b>✅ 설정 페이지</b>
+<h3>✅ 설정 페이지</h3>
  - 반려동물 이미지를 클릭 시 반려동물 정수 수정 페이지로 이동
  - 문의하기 버튼 클릭 시 기기의 메일 앱 목록 불러옴, 메일 수신자에 수신자 자동 입력
  - 로그아웃 버튼 클릭 시 기기 로그아웃, 안내 페이지로 이동
